@@ -18,7 +18,7 @@ export default class ErrorBoundary extends Component {
 
     componentDidCatch(error, errorInfo) {
         console.log('componentDidCatch')
-        // TODO logging
+        
     }
 
     render() {
@@ -29,3 +29,4 @@ export default class ErrorBoundary extends Component {
         return this.props.children;
     }
 }
+
